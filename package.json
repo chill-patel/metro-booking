@@ -1,0 +1,27 @@
+{
+  "name": "peakflow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require ts-node/register src/**/**.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "-": "^0.0.1",
+    "@types/chai": "^4.3.6",
+    "@types/mocha": "^10.0.1",
+    "chai": "^4.3.8",
+    "i": "^0.3.7",
+    "mocha": "^10.2.0",
+    "npm": "^10.1.0",
+    "sinon": "^16.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
